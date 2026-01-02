@@ -1,0 +1,17 @@
+{
+  "spellcheck": false,
+  "showIndentGuide": false,
+  "showLineNumber": true,
+  "foldIndent": false,
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "99_System/Assets",
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "livePreview": false,
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Inbox",
+  "useMarkdownLinks": true
+}
