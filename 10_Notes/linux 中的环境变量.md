@@ -1,6 +1,6 @@
 ---
 created: 2026-01-01 15:21
-updated: 2026-01-02 23:21
+updated: 2026-01-03 22:37
 tags:
   - linux
   - DevOps
@@ -8,7 +8,7 @@ status: seed
 aliases:
 ---
 
-返回 [linux 基础](../30_Maps/linux%20基础.md)
+返回 [Linux 基础](../30_Maps/Linux%20基础.md)
 
 ## 1. 临时生效 - 当前终端窗口
 

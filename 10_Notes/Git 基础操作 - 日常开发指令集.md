@@ -1,6 +1,6 @@
 ---
 created: 2026-01-01 15:03
-updated: 2026-01-03 18:26
+updated: 2026-01-03 22:35
 tags:
   - git
 status: evergreen
@@ -150,14 +150,16 @@ git commit --amend -m "feat: new correct message"
 
 ## 5. 常用指令速查表
 
-| 指令                    | 作用         | 记忆口诀       |
-| :-------------------- | :--------- | :--------- |
-| `git status`          | 查看文件变动     | **没事就敲一下** |
-| `git add .`           | 追踪所有改动     | 一网打尽       |
-| `git commit -m "msg"` | 保存快照       | 存盘         |
-| `git log --oneline`   | 查看精简历史记录   | 查户口        |
-| `git diff`            | 查看具体改了什么代码 | 找不同        |
-| `git remote -v`       | 查看远程地址     | 查源头        |
+| 指令                    | 作用         | 记忆口诀 |
+| :-------------------- | :--------- | :--- |
+| `git status`          | 查看文件变动     | 没事敲下 |
+| `git add .`           | 追踪所有改动     | 一网打尽 |
+| `git commit -m "msg"` | 保存快照       | 储存现状 |
+| `git log --oneline`   | 查看精简历史记录   | 查历史  |
+| `git diff`            | 查看具体改了什么代码 | 找不同  |
+| `git remote -v`       | 查看远程地址     | 查源头  |
+
+其中应该养成的常用习惯指令 `git status` 的详情参见：[Git Status - 查看仓库状态](Git%20Status%20-%20查看仓库状态.md)
 
 ---
 

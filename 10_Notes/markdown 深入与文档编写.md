@@ -1,6 +1,6 @@
 ---
 created: 2026-01-01 14:25
-updated: 2026-01-01 22:58
+updated: 2026-01-03 22:11
 tags:
   - markdown
 status: seed
@@ -8,7 +8,7 @@ aliases:
   - markdown语法
 ---
 
-返回 [[../30_Maps/计算机基础能力|计算机基础能力]]
+返回 [计算机基础能力](../30_Maps/计算机基础能力.md)
 
 ## 1. 列表、任务、引用
 
@@ -158,6 +158,6 @@ GitHub、GitLab 等支持更丰富的语法：
 - **CHANGELOG.md**：记录版本更新
 - **CONTRIBUTING.md**：贡献指南
 - **Wiki / docs/**：写详细文档
-- 数学公式语法借用了 LaTeX 的语法，详见：[[markdown 数学公式]]
+- 数学公式语法借用了 LaTeX 的语法，详见：[[Markdown 数学公式]]
 
 [^1]: 这是脚注说明

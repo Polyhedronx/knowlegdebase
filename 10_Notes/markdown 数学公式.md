@@ -1,6 +1,6 @@
 ---
 created: 2026-01-01 14:26
-updated: 2026-01-01 15:48
+updated: 2026-01-03 22:12
 tags:
   - markdown
 status: seed
@@ -8,7 +8,7 @@ aliases:
   - markdown语法
 ---
 
-返回 [[../30_Maps/计算机基础能力|计算机基础能力]]
+返回 [计算机基础能力](../30_Maps/计算机基础能力.md)
 
 ## 1. 行内公式
 

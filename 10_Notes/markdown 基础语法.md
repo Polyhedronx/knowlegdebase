@@ -1,6 +1,6 @@
 ---
 created: 2026-01-01 14:23
-updated: 2026-01-01 15:48
+updated: 2026-01-03 22:12
 tags:
   - markdown
 status: seed
@@ -129,6 +129,6 @@ git commit -m "提交信息"
 
 ---
 
-深入语法详见：[[markdown 深入与文档编写]]
+深入语法详见：[Markdown 深入与文档编写](Markdown%20深入与文档编写.md)
 
-返回 [[../30_Maps/计算机基础能力|计算机基础能力]]
+返回 [计算机基础能力](../30_Maps/计算机基础能力.md)

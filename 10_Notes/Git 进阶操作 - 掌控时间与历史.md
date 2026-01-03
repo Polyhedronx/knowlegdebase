@@ -1,6 +1,6 @@
 ---
 created: 2026-01-01 15:04
-updated: 2026-01-03 18:24
+updated: 2026-01-03 22:46
 tags:
   - git
 status: seed
@@ -68,6 +68,8 @@ git checkout master
 git cherry-pick a1b2c3d
 ```
 
+更具体的使用方式参见：[Git 救火队 - Cherry-Pick 与 Revert](Git%20救火队%20-%20Cherry-Pick%20与%20Revert.md)
+
 ---
 
 ## 3. 现场冻结 (Stash)
@@ -87,6 +89,8 @@ git checkout dev
 git stash pop  # 恢复并从堆栈中删除
 # 或者使用 git stash list 查看列表， git stash apply 恢复但不删除
 ```
+
+更多详情参见：[Git Stash - 暂存你的代码](Git%20Stash%20-%20暂存你的代码.md)
 
 ---
 
@@ -180,6 +184,6 @@ git reflog
 git reset --hard 9a8b7c6
 ```
 
-> **口诀**：只要不删 `.git` 目录，Git 里几乎没有真正意义上的 " 永久丢失 "。
+> 只要不删 `.git` 目录，Git 里几乎没有真正意义上的 " 永久丢失 "。
 
 返回 [计算机基础能力](../30_Maps/计算机基础能力.md)

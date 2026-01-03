@@ -8,7 +8,7 @@ status: seed
 aliases:
 ---
 
-返回 [linux 基础](../30_Maps/linux%20基础.md)
+返回 [Linux 基础](../30_Maps/Linux%20基础.md)
 
 ## 用户权限
 
