@@ -1,6 +1,6 @@
 ---
 created: 2026-01-01 15:03
-updated: 2026-01-03 22:35
+updated: 2026-01-04 12:55
 tags:
   - git
 status: evergreen
@@ -83,6 +83,7 @@ git status
 # 2. 添加文件到暂存区（挑选要提交的文件）
 git add login.html       # 添加指定文件
 git add .                # 添加当前目录下所有变动（最常用）
+git add -A               # 添加所有更改（包括删除和重命名）
 
 # 3. 提交到本地仓库
 # -m 后面是本次提交的说明，严禁写 "update" 这种无意义废话
@@ -101,11 +102,15 @@ git commit -am "fix: correct typo in login button"
 ```bash
 # 1. 关联远程仓库（仅在首次需要）
 # origin 是远程仓库的别名，约定俗成
-git remote add origin https://github.com/user/repo.git
+git remote add origin https://github.com/Polyhedronx/knowlegdebase.git
+# 想更换连接方式为SSH链接（@后面的是本仓库示例）
+git remote set-url origin git@github.com:Polyhedronx/knowlegdebase.git
 
 # 2. 推送到远程
 # -u 表示 upstream，下次直接敲 git push 即可
 git push -u origin main
+# -f 表示 force，表示强制推送（慎用）
+git push -f origin main
 
 # 3. 拉取更新（每天开工第一件事）
 git pull origin main
@@ -135,6 +140,8 @@ git restore filename.txt
 ```bash
 # 撤出暂存区，放回工作区
 git reset HEAD filename.txt
+# 清空暂存区
+git rm -r --cached .
 # 或者新版命令
 git restore --staged filename.txt
 ```
@@ -150,14 +157,15 @@ git commit --amend -m "feat: new correct message"
 
 ## 5. 常用指令速查表
 
-| 指令                    | 作用         | 记忆口诀 |
-| :-------------------- | :--------- | :--- |
-| `git status`          | 查看文件变动     | 没事敲下 |
-| `git add .`           | 追踪所有改动     | 一网打尽 |
-| `git commit -m "msg"` | 保存快照       | 储存现状 |
-| `git log --oneline`   | 查看精简历史记录   | 查历史  |
-| `git diff`            | 查看具体改了什么代码 | 找不同  |
-| `git remote -v`       | 查看远程地址     | 查源头  |
+| 指令                    | 作用               | 记忆口诀 |
+| :-------------------- | :--------------- | :--- |
+| `git status`          | 查看文件变动           | 没事敲下 |
+| `git add .`           | 追踪所有改动，加入暂存区     | 一网打尽 |
+| `git commit -m "msg"` | 保存文件快照           | 储存现状 |
+| `git log --oneline`   | 查看 git 精简历史记录    | 查历史  |
+| `git diff`            | 查看具体改了什么代码       | 找不同  |
+| `git remote -v`       | 查看远程地址           | 查源头  |
+| `git fetch`           | 拉取远程仓库的代码对比（不合并） | 看差异  |
 
 其中应该养成的常用习惯指令 `git status` 的详情参见：[Git Status - 查看仓库状态](Git%20Status%20-%20查看仓库状态.md)
 
