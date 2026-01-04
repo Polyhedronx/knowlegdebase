@@ -1,6 +1,6 @@
 ---
 created: 2026-01-04 20:42
-updated: 2026-01-04 21:04
+updated: 2026-01-05 00:31
 tags:
   - Docker
   - DevOps
@@ -14,20 +14,20 @@ aliases:
 
 *构建心理模型，理解 Docker 是如何工作的。*
 
-- [[Docker 是什么]] - 容器 vs 虚拟机，解决了什么问题（"Build once, Run anywhere"）。
-- [[Docker 架构详解]] - Client-Server 架构，Docker Daemon，Containerd。
+- [Docker 是什么](../10_Notes/Docker%20是什么.md) - 容器 vs 虚拟机，解决了什么问题（"Build once, Run anywhere"）。
+- [Docker 架构详解](../10_Notes/Docker%20架构详解.md) - Client-Server 架构，Docker Daemon，Containerd。
 - **三大核心要素**：
-	- [[Docker 镜像 (Image)]] - 只读模板，分层存储原理（UnionFS）。
-	- [[Docker 容器 (Container)]] - 镜像的运行实例，进程隔离（Namespace & Cgroups）。
-	- [[Docker 仓库 (Repository)]] - 存放镜像的地方（Docker Hub, 私有库）。
+	- [Docker 镜像 (Image)](../10_Notes/Docker%20镜像%20(Image).md) - 只读模板，分层存储原理（UnionFS）。
+	- [Docker 容器 (Container)](../10_Notes/Docker%20容器%20(Container).md) - 镜像的运行实例，进程隔离（Namespace & Cgroups）。
+	- [Docker 仓库 (Repository)](../10_Notes/Docker%20仓库%20(Repository).md) - 存放镜像的地方（Docker Hub, 私有库）。
 
 ---
 
 ## 1. 环境准备与配置
 
-- [[Docker 安装指南]] - Windows (WSL2), macOS (Docker Desktop/OrbStack), Linux。
-- [[配置国内镜像加速]] - 解决拉取速度慢的问题（阿里云、腾讯云等配置）。
-- [[Docker 常用配置]] - `daemon.json` 配置详解（日志大小限制、存储驱动等）。
+- [Docker 安装指南](../10_Notes/Docker%20安装指南.md) - Windows (WSL2), macOS (Docker Desktop/OrbStack), Linux。
+- [Docker 国内镜像加速配置](../10_Notes/Docker%20国内镜像加速配置.md) - 解决拉取速度慢的问题（阿里云、腾讯云等配置）。
+- [Docker 常用配置](../10_Notes/Docker%20常用配置.md) - `daemon.json` 配置详解（日志大小限制、存储驱动等）。
 
 ---
 
