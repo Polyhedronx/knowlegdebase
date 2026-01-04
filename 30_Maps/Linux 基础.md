@@ -1,12 +1,11 @@
 ---
 created: 2026-01-01 15:24
-updated: 2026-01-02 23:23
+updated: 2026-01-04 17:31
 tags:
   - linux
   - DevOps
 status: seed
 aliases:
-  - linux shell 命令
 ---
 
 ## Shell 命令

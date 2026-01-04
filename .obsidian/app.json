@@ -13,5 +13,10 @@
   "promptDelete": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "00_Inbox",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "99_System/Templates/",
+    "40_Daily/",
+    "90_Archives/"
+  ]
 }
