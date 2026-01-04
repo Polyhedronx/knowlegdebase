@@ -2,7 +2,7 @@
 created: 2026-01-04 17:10
 updated: 2026-01-04 17:16
 tags:
-  - 团队协作
+  - Cooperation
   - DevOps
 status: seed
 aliases:

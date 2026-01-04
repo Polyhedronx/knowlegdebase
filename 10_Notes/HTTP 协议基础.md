@@ -2,7 +2,7 @@
 created: 2026-01-01 14:56
 updated: 2026-01-03 18:34
 tags:
-  - 计算机网络
+  - ComputerWeb
 status: seed
 aliases:
   - http
@@ -157,4 +157,4 @@ graph LR
 | **HTTP/2**   | 解决了队头阻塞，提升并发速度       | 多路复用, 二进制分帧, 头部压缩       |
 | **HTTP/3**   | 解决了 TCP 握手慢、丢包重传慢的问题 | 基于 UDP (QUIC), 0-RTT 建连 |
 
-返回 [计算机基础能力](../30_Maps/计算机基础能力.md)
+返回 [计算机学习](../30_Maps/计算机学习.md)

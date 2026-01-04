@@ -2,8 +2,8 @@
 created: 2026-01-01 14:07
 updated: 2026-01-03 22:49
 tags:
-  - word
-  - 模板
+  - Word
+  - Templates
 status: seed
 aliases:
   - 论文排版

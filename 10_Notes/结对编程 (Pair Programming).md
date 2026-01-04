@@ -2,8 +2,8 @@
 created: 2026-01-04 18:10
 updated: 2026-01-04 18:15
 tags:
-  - 团队协作
-  - 理论
+  - Cooperation
+  - Theory
 status: seed
 aliases:
 ---

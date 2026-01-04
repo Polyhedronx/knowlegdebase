@@ -2,13 +2,13 @@
 created: 2026-01-01 14:25
 updated: 2026-01-03 22:11
 tags:
-  - markdown
+  - Markdown
 status: seed
 aliases:
   - markdown语法
 ---
 
-返回 [计算机基础能力](../30_Maps/计算机基础能力.md)
+返回 [计算机学习](../30_Maps/计算机学习.md)
 
 ## 1. 列表、任务、引用
 

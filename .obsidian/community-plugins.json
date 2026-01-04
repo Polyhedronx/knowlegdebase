@@ -2,5 +2,6 @@
   "obsidian-excalidraw-plugin",
   "obsidian-linter",
   "calendar",
-  "dataview"
+  "dataview",
+  "tag-wrangler"
 ]

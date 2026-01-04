@@ -2,8 +2,8 @@
 created: 2026-01-02 23:00
 updated: 2026-01-02 23:01
 tags:
-  - 团队协作
-  - git
+  - Cooperation
+  - Git
 status: sapling
 aliases:
 ---

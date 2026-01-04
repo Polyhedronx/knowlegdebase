@@ -2,7 +2,7 @@
 created: 2026-01-01 15:03
 updated: 2026-01-04 12:55
 tags:
-  - git
+  - Git
 status: evergreen
 aliases:
 ---
@@ -190,4 +190,4 @@ venv/
 .DS_Store
 ```
 
-返回 [计算机基础能力](../30_Maps/计算机基础能力.md)
+返回 [计算机学习](../30_Maps/计算机学习.md)

@@ -2,7 +2,7 @@
 created: 2026-01-01 14:23
 updated: 2026-01-03 22:12
 tags:
-  - markdown
+  - Markdown
 status: seed
 aliases:
   - markdown语法
@@ -131,4 +131,4 @@ git commit -m "提交信息"
 
 深入语法详见：[Markdown 深入与文档编写](Markdown%20深入与文档编写.md)
 
-返回 [计算机基础能力](../30_Maps/计算机基础能力.md)
+返回 [计算机学习](../30_Maps/计算机学习.md)

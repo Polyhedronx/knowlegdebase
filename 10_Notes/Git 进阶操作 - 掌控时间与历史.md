@@ -2,7 +2,7 @@
 created: 2026-01-01 15:04
 updated: 2026-01-04 13:24
 tags:
-  - git
+  - Git
 status: seed
 aliases:
 ---
@@ -186,4 +186,4 @@ git reset --hard 9a8b7c6
 
 > 只要不删 `.git` 目录，Git 里几乎没有真正意义上的 " 永久丢失 "。
 
-返回 [计算机基础能力](../30_Maps/计算机基础能力.md)
+返回 [计算机学习](../30_Maps/计算机学习.md)

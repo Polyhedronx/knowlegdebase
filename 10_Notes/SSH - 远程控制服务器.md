@@ -2,13 +2,13 @@
 created: 2026-01-01 14:40
 updated: 2026-01-03 22:48
 tags:
-  - ssh
-  - 计算机网络
+  - SSH
+  - ComputerWeb
 status: seed
 aliases:
 ---
 
-返回 [计算机基础能力](../30_Maps/计算机基础能力.md)
+返回 [计算机学习](../30_Maps/计算机学习.md)
 
 ## 0. 基本概念
 

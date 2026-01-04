@@ -2,13 +2,13 @@
 created: 2026-01-01 14:26
 updated: 2026-01-03 22:12
 tags:
-  - markdown
+  - Markdown
 status: seed
 aliases:
   - markdown语法
 ---
 
-返回 [计算机基础能力](../30_Maps/计算机基础能力.md)
+返回 [计算机学习](../30_Maps/计算机学习.md)
 
 ## 1. 行内公式
 

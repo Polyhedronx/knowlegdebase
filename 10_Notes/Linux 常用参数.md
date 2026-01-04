@@ -2,13 +2,13 @@
 created: 2026-01-01 15:09
 updated: 2026-01-02 23:12
 tags:
-  - linux
+  - Linux
   - DevOps
 status: seed
 aliases:
 ---
 
-返回 [Linux 基础](../30_Maps/Linux%20基础.md)
+返回 [Linux 命令速查](../30_Maps/Linux%20命令速查.md)
 
 ## 1. 文件与目录操作参数
 

@@ -2,7 +2,7 @@
 created: 2026-01-01 14:01
 updated: 2026-01-03 22:24
 tags:
-  - git
+  - Git
 status: seed
 aliases:
   - stash

@@ -2,7 +2,7 @@
 created: 2026-01-01 14:02
 updated: 2026-01-03 22:25
 tags:
-  - git
+  - Git
 status: seed
 aliases:
   - status
