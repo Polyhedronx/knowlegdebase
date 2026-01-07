@@ -1,6 +1,6 @@
 ---
 created: 2026-01-04 20:42
-updated: 2026-01-05 00:31
+updated: 2026-01-07 23:59
 tags:
   - Docker
   - DevOps
@@ -37,11 +37,11 @@ aliases:
 
 ### 容器生命周期管理
 
-- [[启动与运行容器]] - `docker run` 参数详解 (`-d`, `-p`, `-v`, `--name`)。
-- [[查看与停止容器]] - `docker ps`, `docker stop`, `docker kill`。
-- [[进入容器调试]] - `docker exec -it` 与 `docker attach` 的区别。
-- [[查看容器日志]] - `docker logs` (跟随、时间戳、尾部查看)。
-- [[清理容器]] - `docker rm` 与 `docker prune`。
+- [Docker 容器启动与运行](../10_Notes/Docker%20容器启动与运行.md) - `docker run` 参数详解 (`-d`, `-p`, `-v`, `--name`)。
+- [Docker 容器查看与停止](../10_Notes/Docker%20容器查看与停止.md)- `docker ps`, `docker stop`, `docker kill`。
+- [进入容器调试](../10_Notes/进入容器调试.md) - `docker exec -it` 与 `docker attach` 的区别。
+- [Docker 容器日志查看](../10_Notes/Docker%20容器日志查看.md) - `docker logs` (跟随、时间戳、尾部查看)。
+- [Docker 容器清理](../10_Notes/Docker%20容器清理.md) - `docker rm` 与 `docker prune`。
 
 ### 镜像管理
 
