@@ -1,6 +1,6 @@
 ---
 created: 2026-01-04 21:02
-updated: 2026-01-04 21:05
+updated: 2026-01-08 22:49
 tags:
   - Docker
 status: seed
@@ -54,11 +54,11 @@ aliases:
 - [[查看状态]] - `docker compose ps` (查看服务列表), `docker compose top` (查看进程)。
 - [[日志管理]] - `docker compose logs -f` (聚合查看所有服务的日志，不同颜色区分)。
 - [[容器内执行]] - `docker compose exec [service_name] bash` (进入特定服务)。
-- [[清理资源]] - `docker compose down -v` (⚠️ 危险：同时删除数据卷)。
+- [[清理资源]] - `docker compose down -v` (危险：同时删除数据卷)。
 
 ## 3. 网络与服务发现
 
-*容器之间是如何互相 " 找到 " 对方的？*
+*容器之间是如何互相找到对方的？*
 
 - [[Compose 默认网络]] - 为什么在 Compose 里不需要手动 `--link`。
 - [[基于服务名的通信]] - 代码里连接数据库直接写 `host: "postgres-db"` 而不是 IP 地址。

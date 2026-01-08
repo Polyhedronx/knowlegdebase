@@ -1,6 +1,6 @@
 ---
 created: 2026-01-04 20:42
-updated: 2026-01-08 20:50
+updated: 2026-01-08 22:49
 tags:
   - Docker
   - DevOps
@@ -68,8 +68,8 @@ aliases:
 
 ### 构建操作
 
-- [Docker Build 命令](../00_Inbox/Docker%20Build%20命令.md) - `docker build -t`，构建上下文（Context）的理解。
-- [使用 .dockerignore](../00_Inbox/使用%20.dockerignore.md) - 排除无关文件（如 `.git`, `node_modules`）以减小上下文传输。
+- [Docker Build 命令](../10_Notes/Docker%20Build%20命令.md) - `docker build -t`，构建上下文（Context）的理解。
+- [使用 .dockerignore](../10_Notes/使用%20.dockerignore.md) - 排除无关文件（如 `.git`, `node_modules`）以减小上下文传输。
 
 ---
 
@@ -77,11 +77,11 @@ aliases:
 
 *从能跑到生产级的进阶。*
 
-- [[多阶段构建 (Multi-stage Builds)]] - **核心技巧**：在构建阶段编译，在运行阶段仅保留产物（极大减小体积）。
-- [[镜像分层与缓存利用]] - 编写顺序对缓存命中的影响（先 COPY package.json，后 COPY 源代码）。
-- [[基础镜像选择策略]] - Alpine vs Debian-slim vs Distroless。
-- [[最小权限原则]] - 创建非 root 用户运行容器服务。
-- [[Docker 镜像瘦身指南]] - 减少层数、清理缓存（`apt-get clean` 等）。
+- [多阶段构建 (Multi-stage Builds)](../10_Notes/多阶段构建%20(Multi-stage%20Builds).md) - **核心技巧**：在构建阶段编译，在运行阶段仅保留产物（极大减小体积）。
+- [镜像分层与缓存利用](../10_Notes/镜像分层与缓存利用.md) - 编写顺序对缓存命中的影响（先 COPY package.json，后 COPY 源代码）。
+- [基础镜像选择策略](../10_Notes/基础镜像选择策略.md) - Alpine vs Debian-slim vs Distroless。
+- [最小权限原则](../10_Notes/最小权限原则.md) - 创建非 root 用户运行容器服务。
+- [Docker 镜像瘦身指南](../10_Notes/Docker%20镜像瘦身指南.md) - 减少层数、清理缓存（`apt-get clean` 等）。
 
 ---
 
@@ -89,23 +89,23 @@ aliases:
 
 *虽然重点是镜像，但运行需要了解的基础。*
 
-- [[Docker Volume (数据卷)]] - 数据持久化，容器删除数据不丢失。
-- [[Bind Mounts (挂载)]] - 方便开发环境代码实时同步。
-- [[Docker 网络模式]] - Bridge, Host, None 模式简介，容器互联。
+- [Docker Volume (数据卷)](../10_Notes/Docker%20Volume%20(数据卷).md) - 数据持久化，容器删除数据不丢失。
+- [Bind Mounts (挂载)](../10_Notes/Bind%20Mounts%20(挂载).md) - 方便开发环境代码实时同步。
+- [Docker 网络模式](../10_Notes/Docker%20网络模式.md) - Bridge, Host, None 模式简介，容器互联。
 
 ---
 
 ## 6. 常见场景实战
 
-- [[实战：构建 Node.js 镜像]]
-- [[实战：构建 Python 镜像]]
-- [[实战：构建 Go 语言镜像]] (多阶段构建典型案例)
-- [[实战：构建 Nginx 静态网站镜像]]
+- [实战：构建 Node.js 镜像](../10_Notes/实战：构建%20Node.js%20镜像.md)
+- [实战：构建 Python 镜像](../10_Notes/实战：构建%20Python%20镜像.md)
+- [实战：构建 Go 语言镜像](../10_Notes/实战：构建%20Go%20语言镜像.md) (多阶段构建典型案例)
+- [实战：构建 Nginx 静态网站镜像](../10_Notes/实战：构建%20Nginx%20静态网站镜像.md)
 
 ---
 
 ### 附录与资源
 
-- [[Docker 常见错误排查 (Troubleshooting)]]
-- [[Docker 官方文档链接]]
+- [Docker 常见错误排查 (Troubleshooting)](../10_Notes/Docker%20常见错误排查%20(Troubleshooting).md)
+- [Docker Docs](https://docs.docker.com/)
 - [Docker Compose 入门](Docker%20Compose%20入门.md)
