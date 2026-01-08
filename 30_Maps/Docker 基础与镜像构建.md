@@ -1,6 +1,6 @@
 ---
 created: 2026-01-04 20:42
-updated: 2026-01-07 23:59
+updated: 2026-01-08 20:50
 tags:
   - Docker
   - DevOps
@@ -45,9 +45,9 @@ aliases:
 
 ### 镜像管理
 
-- [[拉取与推送镜像]] - `docker pull`, `docker push`。
-- [[查看与删除镜像]] - `docker images`, `docker rmi`。
-- [[镜像导出与导入]] - `docker save/load` (离线迁移场景)。
+- [Docker 镜像拉取与推送](../10_Notes/Docker%20镜像拉取与推送.md) - `docker pull`, `docker push`。
+- [Docker 镜像查看与删除](../10_Notes/Docker%20镜像查看与删除.md) - `docker images`, `docker rmi`。
+- [Docker 镜像导出与导入](../10_Notes/Docker%20镜像导出与导入.md) - `docker save/load` (离线迁移场景)。
 
 ---
 
@@ -57,7 +57,7 @@ aliases:
 
 ### 基础语法
 
-- [[Dockerfile 指令大全]] - 常用指令速查。
+- [Dockerfile 指令大全](../10_Notes/Dockerfile%20指令大全.md) - 常用指令速查。
 	- `FROM`: 基础镜像选择。
 	- `WORKDIR`: 设定工作目录。
 	- `COPY` vs `ADD`: 文件复制的区别与最佳场景。
@@ -68,8 +68,8 @@ aliases:
 
 ### 构建操作
 
-- [[Docker Build 命令]] - `docker build -t`，构建上下文（Context）的理解。
-- [[使用 .dockerignore]] - 排除无关文件（如 `.git`, `node_modules`）以减小上下文传输。
+- [Docker Build 命令](../00_Inbox/Docker%20Build%20命令.md) - `docker build -t`，构建上下文（Context）的理解。
+- [使用 .dockerignore](../00_Inbox/使用%20.dockerignore.md) - 排除无关文件（如 `.git`, `node_modules`）以减小上下文传输。
 
 ---
 
